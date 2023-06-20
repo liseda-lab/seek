@@ -446,27 +446,14 @@ def getExplanations(path_graph, path_label_classes, path_embedding_classes, targ
 
 if __name__== '__main__':
 
-    ####################################### STRING v11 dataset #################################################
+    ####################################### PPI prediction
 
-    # path_dataset_file = "./PPI/Data/v11(score950).txt"
-    # n_partition = 10
-    # path_partition = './PPI/StratifiedPartitions/Indexes__crossvalidationTest__Run'
-    # algorithms = ["RF", "XGB", "MLP"]
-    #
-    # path_file_representation = "./PPI/Embeddings/Emb_pair_maxdepth4_nwalks100_Avg_disjointcommonancestor.txt"
-    # path_file_model = "./PPI/Models/"
-
-    #run_save_model(path_file_representation, path_dataset_file, path_file_model, algorithms)
-
-    # path_graph = "./PPI/KG.gpickle"
-    # path_label_classes = "PPI/Labelclasses.pkl"
-    # ontology_file_path = "PPI/Data/go-basic.owl"
-    # annotations_file_path = "PPI/Data/goa_human_new.gaf"
-    #run_save_graph(ontology_file_path, annotations_file_path, path_graph, path_label_classes)
-
-
-    # path_explanations = "./PPI/Explanations/"
-    # path_embedding_classes = "PPI/Embeddings/Emb_classes_maxdepth4_nwalks100_disjointcommonancestor.txt"
-    # target_pair = ('P25398','P46783')
-    # alg = "RF"
-    # getExplanations(ontology_file_path, annotations_file_path, path_embedding_classes, target_pair, alg, path_file_model, path_explanations)
+    path_file_representation = "./PPI/Embeddings/Emb_pair_maxdepth4_nwalks100_Avg_disjointcommonancestor.txt"
+    path_file_model = "./PPI/Models/RF/Model_RF.pickle
+    alg = "RF"
+    path_graph = "./PPI/KG.gpickle"
+    path_label_classes = "PPI/Labelclasses.pkl"
+    path_explanations = "./PPI/Explanations/"
+    path_embedding_classes = "PPI/Embeddings/Emb_classes_maxdepth4_nwalks100_disjointcommonancestor.txt"
+    target_pair = ('P25398','P46783')
+    getExplanations(ontology_file_path, annotations_file_path, path_embedding_classes, target_pair, alg, path_file_model, path_explanations)
