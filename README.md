@@ -4,10 +4,9 @@
 * install python 3.6.8;
 * install python libraries by running the following command:  ```pip install -r req.txt```.
 
-## Methods
+## Methodology
 
-<img src="https://github.com/liseda-lab/seek/blob/main/methodology.png"/>
-
+<img src="https://github.com/liseda-lab/seek/blob/main/methodology.png" width="60%"/>
 
 Run the command:
 ```
