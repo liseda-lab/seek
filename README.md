@@ -6,7 +6,7 @@
 
 ## Methodology
 
-<img src="https://github.com/liseda-lab/seek/blob/main/methodology.png" width="60%"/>
+<img src="https://github.com/liseda-lab/seek/blob/main/methodology.png" width="50%"/>
 
 Run the command:
 ```
