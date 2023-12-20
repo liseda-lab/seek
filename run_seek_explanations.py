@@ -398,7 +398,7 @@ def getExplanations(path_graph, path_label_classes, path_embedding_classes, targ
     for suf in sufficient_explan:
         vectors_withsufficient.append(dic_emb_classes[suf])
     if len(sufficient_explan) == 0:
-        x_withsufficient = np.array([0 for j in X_test_origina])
+        x_withsufficient = np.array([0 for j in range(n_embeddings)])
     elif len(sufficient_explan) == 1:
         x_withsufficient = np.array(vectors_withsufficient[0])
     else:
@@ -411,7 +411,7 @@ def getExplanations(path_graph, path_label_classes, path_embedding_classes, targ
         if str(not_nec) not in necessary_explan:
             vectors_withoutnecessary.append(dic_emb_classes[str(not_nec)])
     if len(necessary_explan) == len(disjoint_common_ancestors):
-        x_withoutnecessary = np.array([0 for j in X_test_original])
+        x_withoutnecessary = np.array([0 for j in range(n_embeddings)])
     elif len(vectors_withoutnecessary) == 1:
         x_withoutnecessary = np.array(vectors_withoutnecessary[0])
     else:
