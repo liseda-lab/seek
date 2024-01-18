@@ -313,7 +313,7 @@ def getExplanations(path_graph, path_label_classes, path_embedding_classes, targ
 
     dic_emb_classes = eval(open(path_embedding_classes, 'r').read())
 
-    ml_model = pickle.load(open(path_file_model + alg + "/Model_" + alg + ".pickle", "rb"))
+    ml_model = pickle.load(open(path_file_model, "rb"))
 
     ent1, ent2 = target_pair
 
