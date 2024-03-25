@@ -15,7 +15,7 @@ Run the command:
 python3 run_seek_explanations.py
 ```
 
-## How to cite
+## How to Cite
 
 ```
 @inproceedings{10.24963/kr.2023/62,
