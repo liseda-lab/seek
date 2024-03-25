@@ -19,16 +19,16 @@ python3 run_seek_explanations.py
 
 ```
 @inproceedings{10.24963/kr.2023/62,
-author = {Sousa, Rita T. and Silva, Sara and Pesquita, Catia},
-title = {Explainable representations for relation prediction in knowledge graphs},
-year = {2023},
-isbn = {978-1-956792-02-7},
-url = {https://doi.org/10.24963/kr.2023/62},
-doi = {10.24963/kr.2023/62},
-booktitle = {Proceedings of the 20th International Conference on Principles of Knowledge Representation and Reasoning},
-articleno = {62},
-numpages = {12},
-location = {Rhodes, Greece},
-series = {KR '23}
+    author = {Sousa, Rita T. and Silva, Sara and Pesquita, Catia},
+    title = {Explainable representations for relation prediction in knowledge graphs},
+    year = {2023},
+    isbn = {978-1-956792-02-7},
+    url = {https://doi.org/10.24963/kr.2023/62},
+    doi = {10.24963/kr.2023/62},
+    booktitle = {Proceedings of the 20th International Conference on Principles of Knowledge Representation and Reasoning},
+    articleno = {62},
+    numpages = {12},
+    location = {Rhodes, Greece},
+    series = {KR '23}
 }
 ```
