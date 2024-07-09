@@ -449,7 +449,7 @@ if __name__== '__main__':
     ####################################### PPI prediction
 
     path_file_representation = "./PPI/Embeddings/Emb_pair_maxdepth4_nwalks100_Avg_disjointcommonancestor.txt"
-    path_file_model = "./PPI/Models/RF/Model_RF.pickle
+    path_file_model = "./PPI/Models/RF/Model_RF.pickle"
     alg = "RF"
     path_graph = "./PPI/KG.gpickle"
     path_label_classes = "PPI/Labelclasses.pkl"
