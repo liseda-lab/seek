@@ -12,7 +12,7 @@ This repository provides an implementation described in the paper: https://doi.o
 
 Run the command:
 ```
-python3 run_seek_explanations.py
+python3 run_seek.py
 ```
 
 ## How to Cite
