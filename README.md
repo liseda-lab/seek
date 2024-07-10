@@ -10,7 +10,7 @@ This repository provides an implementation described in the paper: https://doi.o
 
 <img src="https://github.com/liseda-lab/seek/blob/main/methodology.png" width="50%"/>
 
-Run the command:
+Run the command (please make sure to unzip all the files before using them):
 ```
 python3 run_seek.py
 ```
