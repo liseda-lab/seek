@@ -2,7 +2,7 @@
 
 This repository provides an implementation described in the paper: https://doi.org/10.24963/kr.2023/62.
 
-## Pre-requesites
+## Pre-requisites
 * install python 3.6.8;
 * install python libraries by running the following command:  ```pip install -r req.txt```.
 
